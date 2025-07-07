@@ -150,9 +150,9 @@ const Navbar = () => {
                 transition={{ duration: 2, repeat: Infinity }}
               />
             </div>
-            <div className="hidden sm:block">
+            {/* <div className="hidden sm:block">
               <span className="font-black text-lg text-gray-900">MARKA SAI CHARAN</span>
-            </div>
+            </div> */}
           </motion.button>
 
           {/* Desktop Navigation - Single Bar */}
