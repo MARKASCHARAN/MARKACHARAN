@@ -429,64 +429,8 @@ const CertificationsPage = () => {
           })}
         </motion.div>
 
-        {/* Enhanced Navigation to Education */}
-        <motion.div 
-          className="text-center"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.2 }}
-        >
-          <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-xl relative overflow-hidden">
-            {/* Background Pattern */}
-            <motion.div 
-              className="absolute inset-0 opacity-[0.03] bg-gradient-to-br from-gray-900 via-transparent to-gray-900"
-              animate={{ 
-                backgroundPosition: ["0% 0%", "100% 100%", "0% 0%"] 
-              }}
-              transition={{ 
-                duration: 15, 
-                repeat: Infinity, 
-                ease: "linear" 
-              }}
-            />
-            
-            <div className="relative z-10">
-              <motion.h3 
-                className="text-3xl font-bold text-gray-900 mb-4 flex items-center justify-center gap-3"
-                animate={{ scale: [1, 1.02, 1] }}
-                transition={{ duration: 3, repeat: Infinity }}
-              >
-                <motion.span
-                  animate={{ rotate: [0, 10, -10, 0] }}
-                  transition={{ duration: 2, repeat: Infinity }}
-                >
-                  🎓
-                </motion.span>
-                Academic Background
-              </motion.h3>
-              <p className="text-gray-600 mb-6 text-lg">
-                Explore my educational journey and academic achievements at Parul University
-              </p>
-              <motion.div>
-                <Link
-                  to="/education"
-                  className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-semibold transition-all shadow-lg"
-                  whileHover={{ scale: 1.05, y: -2 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <FaAward size={18} />
-                  View Education
-                  <motion.span
-                    animate={{ x: [0, 3, 0] }}
-                    transition={{ duration: 1.5, repeat: Infinity }}
-                  >
-                    →
-                  </motion.span>
-                </Link>
-              </motion.div>
-            </div>
-          </div>
-        </motion.div>
+
+
       </div>
     </div>
   );
