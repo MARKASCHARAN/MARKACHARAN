@@ -2,6 +2,14 @@ import { motion } from "framer-motion";
 import { FaCertificate, FaCalendarAlt, FaArrowLeft, FaAward, FaExternalLinkAlt, FaFilter, FaSort, FaTrophy, FaGraduationCap, FaCode, FaCloud, FaNetworkWired, FaDatabase } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import supervisedImg from "../assets/Coursera-Supervised.jpg";
+import pipelinesImg from "../assets/Coursera-ML Pipelines.jpg";
+import mdbImg from "../assets/MDB Learning.jpg";
+import cnImg from "../assets/cn.jpg";
+import jsImg from "../assets/Coursera-JS.jpg";
+import postmanImg from "../assets/Postman.png";
+import ciscoImg from "../assets/CISCO_OS.jpg";
+
 
 const CertificationsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -9,90 +17,91 @@ const CertificationsPage = () => {
 
   const certificates = [
     {
-      title: "Supervised Machine Learning: Regression and Classification",
-      issuer: "Stanford Online, DeepLearning.AI",
-      date: "August 2024",
-      dateSort: "2024-08",
-      description: "In-depth course on regression and classification techniques with hands-on projects.",
-      imagePath: "src/assets/Coursera-Supervised.jpg",
-      category: "AI/ML",
-      level: "Advanced",
-      skills: ["Machine Learning", "Python", "Scikit-learn", "Data Analysis"],
-      credentialId: "DL-ML-2024-001"
-    },
-    {
-      title: "Machine Learning Pipelines with Azure ML Studio",
-      issuer: "Coursera",
-      date: "July 2024",
-      dateSort: "2024-07",
-      description: "Comprehensive course on building and managing machine learning pipelines using Azure ML Studio.",
-      imagePath: "src/assets/Coursera-ML Pipelines.jpg",
-      category: "AI/ML",
-      level: "Intermediate",
-      skills: ["Azure ML", "MLOps", "Cloud Computing", "Model Deployment"],
-      credentialId: "COURSERA-AZ-2024"
-    },
-    {
-      title: "MongoDB Node.js Developer Path",
-      issuer: "MongoDB University",
-      date: "October 2024",
-      dateSort: "2024-10",
-      description: "Building modern applications with Node.js, using MongoDB as your database.",
-      imagePath: "src/assets/MDB Learning.jpg",
-      category: "Backend",
-      level: "Intermediate",
-      skills: ["MongoDB", "Node.js", "Database Design", "CRUD Operations"],
-      credentialId: "MDB-NODE-2024"
-    },
-    {
-      title: "Computer Networks",
-      issuer: "IIT Kanpur",
-      date: "January 2025",
-      dateSort: "2025-01",
-      description: "This certification recognizes a computer network concepts and networking fundamentals.",
-      imagePath: "src/assets/cn.jpg",
-      category: "Networking",
-      level: "Advanced",
-      skills: ["TCP/IP", "Network Security", "Routing", "Network Protocols"],
-      credentialId: "IITK-CN-2025"
-    },
-    {
-      title: "Programming with JavaScript",
-      issuer: "META, Coursera",
-      date: "August 2024",
-      dateSort: "2024-08",
-      description: "Comprehensive course on JavaScript programming with hands-on projects.",
-      imagePath: "src/assets/Coursera-JS.jpg",
-      category: "Frontend",
-      level: "Intermediate",
-      skills: ["JavaScript", "ES6+", "DOM Manipulation", "Async Programming"],
-      credentialId: "META-JS-2024"
-    },
-    {
-      title: "Postman API Fundamentals Student Expert",
-      issuer: "Postman",
-      date: "October 2024",
-      dateSort: "2024-10",
-      description: "This certification recognizes a foundational understanding of API concepts and the Postman platform.",
-      imagePath: "src/assets/Postman.png",
-      category: "API",
-      level: "Beginner",
-      skills: ["API Testing", "REST APIs", "Postman", "API Documentation"],
-      credentialId: "POSTMAN-API-2024"
-    },
-    {
-      title: "CISCO Operating Systems",
-      issuer: "CISCO",
-      date: "January 2025",
-      dateSort: "2025-01",
-      description: "This certification recognizes a foundational understanding of Operating Systems.",
-      imagePath: "src/assets/CISCO_OS.jpg",
-      category: "Systems",
-      level: "Intermediate",
-      skills: ["Linux", "Windows", "Process Management", "Memory Management"],
-      credentialId: "CISCO-OS-2025"
-    }
-  ];
+    title: "Programming with JavaScript",
+    issuer: "META, Coursera",
+    date: "August 2024",
+    dateSort: "2024-08",
+    description: "Comprehensive course on JavaScript programming with hands-on projects.",
+    image: jsImg,
+    category: "Frontend",
+    level: "Intermediate",
+    skills: ["JavaScript", "ES6+", "DOM Manipulation", "Async Programming"],
+    credentialId: "META-JS-2024"
+  },
+  {
+    title: "Supervised Machine Learning: Regression and Classification",
+    issuer: "Stanford Online, DeepLearning.AI",
+    date: "August 2024",
+    dateSort: "2024-08",
+    description: "In-depth course on regression and classification techniques with hands-on projects.",
+    image: supervisedImg,
+    category: "AI/ML",
+    level: "Advanced",
+    skills: ["Machine Learning", "Python", "Scikit-learn", "Data Analysis"],
+    credentialId: "DL-ML-2024-001"
+  },
+  {
+    title: "Machine Learning Pipelines with Azure ML Studio",
+    issuer: "Coursera",
+    date: "July 2024",
+    dateSort: "2024-07",
+    description: "Comprehensive course on building and managing machine learning pipelines using Azure ML Studio.",
+    image: pipelinesImg,
+    category: "AI/ML",
+    level: "Intermediate",
+    skills: ["Azure ML", "MLOps", "Cloud Computing", "Model Deployment"],
+    credentialId: "COURSERA-AZ-2024"
+  },
+  {
+    title: "MongoDB Node.js Developer Path",
+    issuer: "MongoDB University",
+    date: "October 2024",
+    dateSort: "2024-10",
+    description: "Building modern applications with Node.js, using MongoDB as your database.",
+    image: mdbImg,
+    category: "Backend",
+    level: "Intermediate",
+    skills: ["MongoDB", "Node.js", "Database Design", "CRUD Operations"],
+    credentialId: "MDB-NODE-2024"
+  },
+  {
+    title: "Computer Networks",
+    issuer: "IIT Kanpur",
+    date: "January 2025",
+    dateSort: "2025-01",
+    description: "This certification recognizes a computer network concepts and networking fundamentals.",
+    image: cnImg,
+    category: "Networking",
+    level: "Advanced",
+    skills: ["TCP/IP", "Network Security", "Routing", "Network Protocols"],
+    credentialId: "IITK-CN-2025"
+  },
+  {
+    title: "Postman API Fundamentals Student Expert",
+    issuer: "Postman",
+    date: "October 2024",
+    dateSort: "2024-10",
+    description: "This certification recognizes a foundational understanding of API concepts and the Postman platform.",
+    image: postmanImg,
+    category: "API",
+    level: "Beginner",
+    skills: ["API Testing", "REST APIs", "Postman", "API Documentation"],
+    credentialId: "POSTMAN-API-2024"
+  },
+  {
+    title: "CISCO Operating Systems",
+    issuer: "CISCO",
+    date: "January 2025",
+    dateSort: "2025-01",
+    description: "This certification recognizes a foundational understanding of Operating Systems.",
+    image: ciscoImg,
+    category: "Systems",
+    level: "Intermediate",
+    skills: ["Linux", "Windows", "Process Management", "Memory Management"],
+    credentialId: "CISCO-OS-2025"
+  }
+];
+
 
   const categories = ["All", "AI/ML", "Backend", "Frontend", "Networking", "API", "Systems"];
 
@@ -293,7 +302,7 @@ const CertificationsPage = () => {
 
         {/* Enhanced Certificates Grid */}
         <motion.div 
-          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-12"
+          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 mb-12"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
@@ -303,7 +312,7 @@ const CertificationsPage = () => {
             return (
               <motion.div
                 key={cert.title}
-                className="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-xl group relative"
+                className="bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-xl group relative"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
@@ -326,17 +335,18 @@ const CertificationsPage = () => {
                 />
 
                 {/* Certificate Image */}
-                {cert.imagePath && (
+                {cert.image && (
                   <motion.div 
                     className="relative overflow-hidden"
                     whileHover={{ scale: 1.02 }}
                   >
                     <img
-                      src={cert.imagePath}
-                      alt={cert.title}
-                      className="w-full h-48 object-cover"
-                      loading="lazy"
-                    />
+  src={cert.image}
+  alt={cert.title}
+  className="w-full h-full object-cover"
+  loading="lazy"
+/>
+
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                     
                     {/* Floating Action Button */}
