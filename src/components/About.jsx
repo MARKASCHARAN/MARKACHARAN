@@ -461,7 +461,7 @@ export default function AboutAndFeatured() {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
             >
-              AI healthcare platform preventing drug interactions. Solo build in 36 hours.
+              AI healthcare platform preventing drug interactions. Built in 36 hours.
             </motion.p>
             
             <motion.div 
