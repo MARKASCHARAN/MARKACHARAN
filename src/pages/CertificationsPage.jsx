@@ -3,11 +3,11 @@ import { FaCertificate, FaCalendarAlt, FaArrowLeft, FaAward, FaExternalLinkAlt, 
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import supervisedImg from "../assets/Coursera-Supervised.jpg";
-import pipelinesImg from "../assets/Coursera-ML Pipelines.jpg";
-import mdbImg from "../assets/MDB Learning.jpg";
+import pipelinesImg from "../assets/Coursera-MLPipelines.jpg";
+import mdbImg from "../assets/MDBLearning.jpg";
 import cnImg from "../assets/cn.jpg";
 import jsImg from "../assets/Coursera-JS.jpg";
-import postmanImg from "../assets/Postman.png";
+import postmanImg from "../assets/Postma.jpeg";
 import ciscoImg from "../assets/CISCO_OS.jpg";
 
 
@@ -235,7 +235,7 @@ const CertificationsPage = () => {
             className="bg-white rounded-2xl p-6 border border-gray-200 shadow-lg text-center"
             whileHover={{ scale: 1.02, y: -2 }}
           >
-            <h3 className="text-3xl font-black text-gray-900">2024-25</h3>
+            <h3 className="text-3xl font-black text-gray-900">2023-25</h3>
             <p className="text-gray-600 font-medium">Active Period</p>
           </motion.div>
         </motion.div>

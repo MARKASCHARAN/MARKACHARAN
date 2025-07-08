@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaCheckCircle, FaGithub as FaGithubBtn, FaExternalLinkAlt, FaCopy, FaBriefcase, FaHandshake } from "react-icons/fa";
 import { useState } from "react";
-import profileImg from "../assets/profile.jpg";
-import hackathonImg from "../assets/Screenshot 2025-07-08 at 2.55.43 AM.png";
+import profileImg from "../assets/profile.jpeg";
+import hackathonImg from "../assets/Screenshot 2025-07-08 at 2.55.43 AM.jpeg";
 
 export default function AboutAndFeatured() {
   const [emailCopied, setEmailCopied] = useState(false);

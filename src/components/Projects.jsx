@@ -3,8 +3,8 @@ import { FaGithub, FaExternalLinkAlt, FaStar } from "react-icons/fa";
 
 // Import your images from the assets folder
 import chatImg from "../assets/core-chat-features.webp"; // Update with actual image path
-import nftImg from "../assets/image.png";
-import coffeeImg from "../assets/coffee.png";
+import nftImg from "../assets/imag.jpeg";
+import coffeeImg from "../assets/coffe.jpeg";
 import experImg from "../assets/prescription-placeholder.webp";
 
 const projects = [
