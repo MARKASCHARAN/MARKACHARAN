@@ -14,7 +14,7 @@ const CertificationsPage = () => {
       date: "August 2024",
       dateSort: "2024-08",
       description: "In-depth course on regression and classification techniques with hands-on projects.",
-      imagePath: "/assets/profile.jpg",
+      imagePath: "src/assets/Coursera-Supervised.jpg",
       category: "AI/ML",
       level: "Advanced",
       skills: ["Machine Learning", "Python", "Scikit-learn", "Data Analysis"],
@@ -26,7 +26,7 @@ const CertificationsPage = () => {
       date: "July 2024",
       dateSort: "2024-07",
       description: "Comprehensive course on building and managing machine learning pipelines using Azure ML Studio.",
-      imagePath: "/assets/Coursera-ML Pipelines Q8J3YLLSAFH4_1.jpg",
+      imagePath: "src/assets/Coursera-ML Pipelines.jpg",
       category: "AI/ML",
       level: "Intermediate",
       skills: ["Azure ML", "MLOps", "Cloud Computing", "Model Deployment"],
@@ -38,7 +38,7 @@ const CertificationsPage = () => {
       date: "October 2024",
       dateSort: "2024-10",
       description: "Building modern applications with Node.js, using MongoDB as your database.",
-      imagePath: "/assets/MDB Learning_page-0001.jpg",
+      imagePath: "src/assets/MDB Learning.jpg",
       category: "Backend",
       level: "Intermediate",
       skills: ["MongoDB", "Node.js", "Database Design", "CRUD Operations"],
@@ -50,7 +50,7 @@ const CertificationsPage = () => {
       date: "January 2025",
       dateSort: "2025-01",
       description: "This certification recognizes a computer network concepts and networking fundamentals.",
-      imagePath: "/assets/cn.jpg",
+      imagePath: "src/assets/cn.jpg",
       category: "Networking",
       level: "Advanced",
       skills: ["TCP/IP", "Network Security", "Routing", "Network Protocols"],
@@ -62,7 +62,7 @@ const CertificationsPage = () => {
       date: "August 2024",
       dateSort: "2024-08",
       description: "Comprehensive course on JavaScript programming with hands-on projects.",
-      imagePath: "/assets/Coursera-JS by META 3RMTYQ5ON3PL_1.jpg",
+      imagePath: "src/assets/Coursera-JS.jpg",
       category: "Frontend",
       level: "Intermediate",
       skills: ["JavaScript", "ES6+", "DOM Manipulation", "Async Programming"],
@@ -74,7 +74,7 @@ const CertificationsPage = () => {
       date: "October 2024",
       dateSort: "2024-10",
       description: "This certification recognizes a foundational understanding of API concepts and the Postman platform.",
-      imagePath: "/assets/Screenshot 2024-10-16 at 12.24.32 PM (1).jpg",
+      imagePath: "src/assets/Postman.png",
       category: "API",
       level: "Beginner",
       skills: ["API Testing", "REST APIs", "Postman", "API Documentation"],
@@ -86,7 +86,7 @@ const CertificationsPage = () => {
       date: "January 2025",
       dateSort: "2025-01",
       description: "This certification recognizes a foundational understanding of Operating Systems.",
-      imagePath: "/assets/CISCO_OS_page-0001.jpg",
+      imagePath: "src/assets/CISCO_OS.jpg",
       category: "Systems",
       level: "Intermediate",
       skills: ["Linux", "Windows", "Process Management", "Memory Management"],
@@ -179,12 +179,7 @@ const CertificationsPage = () => {
             className="text-5xl sm:text-6xl font-black text-gray-900 mb-4 flex items-center justify-center gap-4"
             whileHover={{ scale: 1.02 }}
           >
-            <motion.span
-              animate={{ rotate: [0, 360] }}
-              transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
-            >
-              🏆
-            </motion.span>
+            
             Professional Certifications
           </motion.h1>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
