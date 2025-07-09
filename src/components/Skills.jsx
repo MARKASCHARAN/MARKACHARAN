@@ -4,14 +4,14 @@ import { FaDownload, FaEye } from "react-icons/fa";
 const Skills = () => {
   const handleResumeView = () => {
     // Replace with your actual resume URL
-    window.open('src/assets/MarkaSaiCharan.pdf');
+    window.open('../assets/MarkaSaiCharan.pdf');
   };
 
   const handleResumeDownload = () => {
     // Replace with your actual resume file path
     const link = document.createElement('a');
-    link.href = 'src/assets/MarkaSaiCharan.pdf';
-    link.download = 'Marka_Sai_Charan_Resume.pdf';
+    link.href = '../assets/MarkaSaiCharan.pdf';
+    link.download = 'MarkaSaiCharan_Resume.pdf';
     link.click();
   };
 
