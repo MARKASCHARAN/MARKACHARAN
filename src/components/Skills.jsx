@@ -4,7 +4,7 @@ import { FaDownload, FaEye } from "react-icons/fa";
 const Skills = () => {
   const handleResumeView = () => {
     // Replace with your actual resume URL
-    window.open('src/assets/MarkaSaiCharan.pdf', '_blank');
+    window.open('src/assets/MarkaSaiCharan.pdf');
   };
 
   const handleResumeDownload = () => {
