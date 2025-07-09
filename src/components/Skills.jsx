@@ -3,17 +3,18 @@ import { FaDownload, FaEye } from "react-icons/fa";
 
 const Skills = () => {
   const handleResumeView = () => {
-    // Replace with your actual resume URL
-    window.open('../assets/MarkaSaiCharan.pdf');
-  };
+  window.open('/MarkaSaiCharan.pdf', '_blank');
+};
 
-  const handleResumeDownload = () => {
-    // Replace with your actual resume file path
-    const link = document.createElement('a');
-    link.href = '../assets/MarkaSaiCharan.pdf';
-    link.download = 'MarkaSaiCharan_Resume.pdf';
-    link.click();
-  };
+const handleResumeDownload = () => {
+  const link = document.createElement('a');
+  link.href = '/MarkaSaiCharan.pdf';
+  link.download = 'MarkaSaiCharan_Resume.pdf';
+  document.body.appendChild(link); // Required for Firefox
+  link.click();
+  document.body.removeChild(link);
+};
+
 
   return (
     <motion.section
