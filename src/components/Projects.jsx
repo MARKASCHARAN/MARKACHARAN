@@ -6,13 +6,14 @@ import chatImg from "../assets/core-chat-features.webp"; // Update with actual i
 import nftImg from "../assets/imag.jpeg";
 import coffeeImg from "../assets/coffe.jpeg";
 import experImg from "../assets/prescription-placeholder.webp";
+import tarc from "../assets/tarc.png"; // Example image, update with actual image path
 
 const projects = [
   {
     title: "Modern Job Search, Elegantly Designed UI",
     description: "Full-stack job search platform UI frontend.",
     techStack: ["Reactjs", "Tailwind CSS", "JavaScript", "Ui Design", "Component Library"],
-    image: chatImg,
+    image: tarc,
     link: "https://track-sy.vercel.app/",
     status: "completed",
   },
