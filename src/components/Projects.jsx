@@ -6,7 +6,7 @@ import chatImg from "../assets/core-chat-features.webp"; // Update with actual i
 import nftImg from "../assets/imag.jpeg";
 import coffeeImg from "../assets/coffe.jpeg";
 import experImg from "../assets/prescription-placeholder.webp";
-import tarc from "../assets/tarc.png"; // Example image, update with actual image path
+import tarc from "../assets/Trac.png"; // Example image, update with actual image path
 
 const projects = [
   {
