@@ -7,6 +7,7 @@ import nftImg from "../assets/imag.jpeg";
 import coffeeImg from "../assets/coffe.jpeg";
 import experImg from "../assets/prescription-placeholder.webp";
 import tarc from "../assets/Trac.png"; // Example image, update with actual image path
+import tarcss from "../assets/1739855105363.jpeg"
 
 const projects = [
   {
@@ -49,6 +50,14 @@ const projects = [
     link: "https://github.com/MARKASCHARAN/ai_diagnosis_expert_system",
     status: "completed",
   },
+  {
+    title: "AI-Powered Crypto Market Insights",
+    description: "Crypto markets move fast—tweets or whale trades can flip everything.",
+    techStack: ["Flask", "Blockchain", "Web3", "Sentiment Analysis"],
+    image: tarcss,
+    link: "https://github.com/MARKASCHARAN",
+    status: "completed",
+  }
 ];
 
 const Projects = () => {
