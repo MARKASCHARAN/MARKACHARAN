@@ -323,7 +323,6 @@ export default function AboutAndFeatured() {
             
             <div className="text-xs text-gray-600 space-y-1">
               <div>• Full-Stack Development •  Web3 & Blockchain </div>
-              <div>• Web3 & Blockchain </div>
             </div>
             
             <motion.div
