@@ -9,6 +9,14 @@ import experImg from "../assets/prescription-placeholder.webp";
 
 const projects = [
   {
+    title: "Modern Job Search, Elegantly Designed UI",
+    description: "Full-stack job search platform UI frontend.",
+    techStack: ["Reactjs", "Tailwind CSS", "JavaScript", "Ui Design", "Component Library"],
+    image: chatImg,
+    link: "https://track-sy.vercel.app/",
+    status: "completed",
+  },
+  {
     title: "Real-Time Chat App",
     description: "Full-stack messaging app with WebSocket connections and real-time communication features.",
     techStack: ["WebSockets", "Node.js", "JavaScript", "API"],
