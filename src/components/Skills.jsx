@@ -59,7 +59,7 @@ const handleResumeDownload = () => {
         
         <div>
           <span className="font-bold text-gray-900">Cloud/Tools:</span> 
-          <span className="ml-2">AWS, Git, VS Code, Linux, Postman, GitHub</span>
+          <span className="ml-2">AWS, Docker, Git, VS Code, Linux, Postman, GitHub</span>
         </div>
       </div>
 
