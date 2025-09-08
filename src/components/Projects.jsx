@@ -8,6 +8,7 @@ import coffeeImg from "../assets/coffe.jpeg";
 import experImg from "../assets/prescription-placeholder.webp";
 import tarc from "../assets/Trac.png"; // Example image, update with actual image path
 import tarcss from "../assets/1739855105363.jpeg"
+import tinyRustyURLImage from "../assets/tiny_rusty_url.png"; // Example image, update with actual image path
 
 const projects = [
   {
@@ -17,7 +18,15 @@ const projects = [
     image: tarc,
     link: "https://track-sy.vercel.app/",
     status: "completed",
-  },
+  },{
+  title: "TinyRustyURL",
+  description: "A blazing fast, modern URL shortener with a Rust backend (Actix Web + Redis) and a React + TypeScript frontend. Includes stats, QR codes, and Dockerized deployment.",
+  techStack: ["Rust", "Actix Web", "Redis", "React", "TypeScript", "Docker"],
+  image: tinyRustyURLImage, // add your project thumbnail or logo here
+  link: "https://tiny-rusty-url.vercel.app/",
+  status: "completed",
+}
+,
   {
     title: "Real-Time Chat App",
     description: "Full-stack messaging app with WebSocket connections and real-time communication features.",
