@@ -8,7 +8,10 @@ import coffeeImg from "../assets/coffe.jpeg";
 import experImg from "../assets/prescription-placeholder.webp";
 import tarc from "../assets/Trac.png"; // Example image, update with actual image path
 import tarcss from "../assets/1739855105363.jpeg"
-import tinyRustyURLImage from "../assets/tiny_rusty_url.png"; // Example image, update with actual image path
+import tinyRustyURLImage from "../assets/urlll.png"; // Example image, update with actual image path
+import booking from "../assets/booking.png";
+import itt from "../assets/itt.png"; 
+
 
 const projects = [
   {
@@ -18,14 +21,34 @@ const projects = [
     image: tarc,
     link: "https://track-sy.vercel.app/",
     status: "completed",
-  },{
+  },
+  {
+  title: "Fitness Website with Booking & Gallery",
+  description: "Modern, responsive fitness and gym website inspired by Gold’s Gym. Includes class schedules, trainer profiles, and membership booking section.",
+  techStack: ["React.js", "Tailwind CSS", "JavaScript", "UI Design", "Responsive Layout"],
+  image: booking, // your imported image variable for preview
+  link: "https://goldsgym.in/",
+  status: "completed",
+}
+,
+  {
   title: "TinyRustyURL",
   description: "A blazing fast, modern URL shortener with a Rust backend (Actix Web + Redis) and a React + TypeScript frontend. Includes stats, QR codes, and Dockerized deployment.",
   techStack: ["Rust", "Actix Web", "Redis", "React", "TypeScript", "Docker"],
   image: tinyRustyURLImage, // add your project thumbnail or logo here
   link: "https://tiny-rusty-url.vercel.app/",
   status: "completed",
+},
+
+{
+  title: "Gym IT Fitness Website",
+  description: "Responsive gym & fitness website with program listings, branch info, gallery, blog, reviews, and contact features, aimed to promote holistic fitness services.",
+  techStack: ["HTML & CSS", "JavaScript", "Responsive Web Design", "UI/UX Design"],
+  image: itt,  // your preview image variable
+  link: "https://gymitfitness.com/",
+  status: "completed",
 }
+
 ,
   {
     title: "Real-Time Chat App",

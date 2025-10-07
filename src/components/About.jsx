@@ -198,7 +198,7 @@ export default function AboutAndFeatured() {
 
             {/* LinkedIn - Continuous bounce */}
             <motion.a
-              href="https://www.linkedin.com/in/marka-charan-0a4a9727a/"
+              href="https://www.linkedin.com/in/marka-sai-charan-0a4a9727a/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-50 rounded-lg px-3 py-2 border border-gray-100 hover:shadow-md transition-all group flex items-center gap-2 cursor-pointer"
